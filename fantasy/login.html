@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="login.css">
+
+<title>Login page</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    
+    
+    background-image: url(bgdark.jpg);
+    background-size: 25%;
+    background-repeat:repeat;
+  }
+
+  .login-box {
+    margin-top: 200px;
+    margin-left: 500px;
+    width: 400px;
+    padding: 20px;
+    background-color: #0c0c0cc9;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #840c36;
+  }
+
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .login-box input[type="text"],
+  .login-box input[type="email"],
+  .login-box input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #840c36;
+    border-radius: 18px;
+    box-sizing: border-box;
+  }
+
+  .login-box input[type="submit"] {
+    width: 100%;
+    background-color: #840c36;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 11px;
+    cursor: pointer;
+  }
+
+  .login-box input[type="submit"]:hover {
+    background-color: #b34d8d;
+  }
+
+  img{
+    size: 100;
+    padding: 90px;
+  }
+
+  h2{
+    color: rgb(255, 255, 255);
+  }
+  header {
+    margin-top: 0px;
+  }
+  
+</style>
+
+</head>
+
+<body>
+  
+  <header>
+    <div class="topnav">
+      <nav id="n1">
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="login.html">Sign Up</a>
+          <a href="contact.html">Contact</a>
+        </nav>  
+    </div>
+  </header>
+
+<div class="login-box">
+  <h2>Sign Up</h2>
+  <form action="#">
+    <input type="email" name="email" placeholder="Email" required><br>
+    <input type="text" name="name" placeholder="Name" required><br>
+    <input type="tel" name="phone" placeholder="Phone Number" required><br>
+    <input type="text" name="address" placeholder="Address" required><br>
+    <input type="submit" value="Create Account">
+  </form>
+</div>
+
+</body>
+</html>
