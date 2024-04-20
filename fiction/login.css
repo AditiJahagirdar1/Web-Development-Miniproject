@@ -1,0 +1,23 @@
+#n1 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#n1 a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 70px;
+}
+
+#n1 a:hover {
+  background-color: #840c36;
+}
+.topnav {
+  background-color: #333;
+  margin-top: 0px;
+  text-align: center;
+}
