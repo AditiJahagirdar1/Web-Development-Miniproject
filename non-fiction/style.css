@@ -1,0 +1,117 @@
+header {
+    color: rgb(15, 212, 238);
+    font-family:'Courier New', Courier, monospace;
+}
+body {
+    background-image: url(bgdark.jpg);
+    background-size: 25%;
+    background-repeat:repeat;
+}
+h2 {
+    text-align: center;
+    color: rgb(219, 230, 12);
+}
+footer {
+    text-align: center;
+    color: rgb(219, 230, 12);
+}
+
+.button {
+    vertical-align: center;
+    font-size: 30px;
+    padding: 40px 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(244, 230, 230);
+    background-color: #840c36;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* #4b2f04; */
+/* #840c36; */
+.button:hover {
+background-color: #b34d8d;           
+color: white;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green;
+  }
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.heading {
+    vertical-align: center;
+    font-size: 50px;
+    padding: 70px 70px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(244, 230, 230);
+    background-color: #d54c5ec7;
+    /* opacity: 80%; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#n1 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  #n1 a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 70px;
+  }
+
+  #n1 a:hover {
+    background-color: #840c36;
+  }
+  .main {
+    margin-top: 20px;
+    margin-bottom:20px;
+    color: rgb(244, 230, 230);
+    /* background-color: #d54c5e; */
+    background-color: #d54c5ec7;
+
+    /* opacity:80%; */
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .about{
+  
+      background-color: #d54c5ec7 ;
+      margin-left:200px;
+      margin-right: 200px;
+      margin-top:200px;
+      margin-bottom: 200px;
+      padding-left: 30px;
+      padding-right: 30px;
+      color: white;
+
+  }
